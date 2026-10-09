@@ -1,0 +1,13 @@
+{
+  "name": "sendandschnitzel-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Send & Schnitzel static site — deployed to Cloudflare Pages",
+  "scripts": {
+    "deploy": "wrangler pages deploy . --project-name sendandschnitzel-site",
+    "preview": "wrangler pages dev ."
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
